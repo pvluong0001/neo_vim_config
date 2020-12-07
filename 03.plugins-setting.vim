@@ -55,3 +55,6 @@ map <S-Insert>      "+gP
 
 cmap <C-V>      <C-R>+
 cmap <S-Insert>     <C-R>+
+
+" fzf
+nnoremap <silent> <C-f> :Files<CR>
