@@ -1,6 +1,6 @@
 ### 1. Yêu cầu:
 - Đã cài đặt NeoVim
-- Copy file init.vim.example vào thư mục ~/.config/nvim
+- Copy file init.vim.example vào thư mục ~/.config/nvim/init.vim
 - Cài đặt `ripgrep` hoặc `silversearcher-ag` phục vụ search files và search in files
 ```shell
 sudo apt-get install silversearcher-ag
