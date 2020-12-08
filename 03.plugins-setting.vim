@@ -58,6 +58,7 @@ cmap <S-Insert>     <C-R>+
 
 " fzf
 nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <C-S-f> :Ag<CR>
 
 " ultisnip
 let g:UltiSnipsExpandTrigger="<tab>"
