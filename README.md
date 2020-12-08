@@ -18,8 +18,7 @@ sudo apt-get install ripgrep
 tham khảo thêm tại https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 ### 3. Các phím tắt:
 - Search files: `Ctrl + F` hoặc `Ctrl + P`(có thể sử dụng `Ctrl + v` hoặc `Ctrl + x` để mở trong screen mới)
-- Search in files: `Ctrl + Shift + F`
-- Search in files: `:Rg` hoặc `:Ag`
+- Search in files: `:Rg` hoặc `:Ag` hoặc `Space + F`
 - Toggle NERDTree: `Ctrl + B`
 - Open property panel: `F8`
 - Go to word: `space space w`
