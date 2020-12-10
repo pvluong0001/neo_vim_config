@@ -35,7 +35,7 @@ let g:ctrlp_custom_ignore = {
 	\ }
 
 " auto import on save
-autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')
+" autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>
@@ -71,9 +71,16 @@ let g:UltiSnipsEditSplit="vertical"
 " Gif config
 map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
+" let g:EasyMotion_do_mapping = 0
+map <C-l> <Plug>(easymotion-lineanywhere)
+map <C-g> <Plug>(easymotion-bd-jk)
 
 " These `n` & `N` mappings are options. You do not have to map `n` & `N` to EasyMotion.
 " Without these mappings, `n` & `N` works fine. (These mappings just provide
 " different highlight method and have some other features )
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
+
+" for vim-go
+let g:go_fmt_command = "gofmt"
+let g:go_fmt_autosave = 0
